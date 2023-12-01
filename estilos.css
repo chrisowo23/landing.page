@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: rgb(240, 181, 255);
+}
+.navbar {
+    margin: 15px;
+    padding: 15px;
+    overflow: hidden;
+    background-color: #8b84cc;   
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 15px;
+    text-align: end;
+}
+.navbar h6{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: start;
+    color: rgb(69, 0, 87);
+}
+.navbar a {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    line-height: 3;
+    letter-spacing: normal;
+    text-decoration: none;
+    color: black;
+    padding: 12px 16px;
+    background-color: none;
+   margin-top: 30px;
+   text-align: end;
+}
+.navbar a:hover {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(132, 115, 190);
+    color: black;
+    letter-spacing: normal;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all 1s ease-in-out;
+    text-align: end;
+}
+.arriba{
+    margin: 0;
+    margin-top: 250px;
+    text-align: center;
+}
+.letra{
+    margin-top: 300px;
+    text-align: center;
+}
+.todo{
+    margin-top: 300%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: rgb(240, 181, 255);
+}
+.card{
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background: var(--1);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+}
+.contenido{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .60);
+    opacity: 0;
+    transition: .6;
+    border-radius: 10px;
+}
+.todo h3, a{
+    margin-top: 300px;
+    color: rgb(255, 149, 149);
+    margin: 10px 0;
+}
+.card:hover .contenido{
+    opacity: 1;
+}
+.buttons {
+    margin-top: 300px;
+  min-width: 700px;
+  display: flex;
+  justify-content: space-around;
+}
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #b82aa2;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+  border: 3px solid #6e1f4a;
+}
+.buttons a:hover {
+    transform: scale(1.2);
+  }
+.misredes{
+    margin-top: 400px;
+}
+.citas{
+    margin-top: 600px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.citas h5{
+    font-size: 25px;
+    margin-bottom: 22px;
+}
+.hcitas{
+    width: 600px;
+    background: #8b84cc;
+    padding: 30px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-family: fantasy;
+    box-shadow: 7px 13px 37px #000;
+}
+.controls{
+    width: 90%;
+    background: #8b84cc;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #5c578d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.botons{
+    width: 90%;
+    background: rgb(67, 130, 133);
+    border: none;
+    padding: 15px;
+    color: #f1f1f1;
+    margin: 16px 0;
+    font-size: 16px;
+}
